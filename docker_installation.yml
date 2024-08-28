@@ -1,0 +1,7 @@
+---
+ - name: Install Docker
+   become: true
+   hosts: deploy
+   roles: 
+     - bsmeding.docker
+
